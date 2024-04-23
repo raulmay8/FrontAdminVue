@@ -41,16 +41,5 @@
     // Navega a la ruta de detalle del cenote con el ID correspondiente
     router.push({ name: 'detalle', params: { id: cenoteId } });
   };
-  
-/*   const verDetalle = async (cenoteId: number) => {
-    try {
-      // Obtiene la información detallada del cenote por su ID
-      const cenote = await getCenoteById(cenoteId);
-      console.log('Detalles del cenote:', cenote);
-      // Aquí podrías implementar la lógica para mostrar los detalles del cenote en otro componente o modal
-    } catch (error) {
-      console.error(`Error al obtener los detalles del cenote con ID ${cenoteId}:`, error);
-    }
-  }; */
   </script>
   

@@ -4,6 +4,7 @@ import CardCenotes from '@/components/content/CardCenotes.vue';
 import MiReserva from '@/components/content/MiReserva.vue';
 import DatosUsuario from '@/components/content/DatosUsuario.vue';
 import DatosReserva from '@/components/content/DatosReserva.vue';
+import BuscarReserva from '@/components/content/BuscarReserva.vue';
 
 const routes = [
       {
@@ -30,6 +31,11 @@ const routes = [
         path: '/datosReserva', 
         name: 'datosReserva', 
         component: DatosReserva 
+      },
+      {
+        path: '/busquedaReserva', 
+        name: 'busquedaReserva', 
+        component: BuscarReserva 
       },
 ];
 
